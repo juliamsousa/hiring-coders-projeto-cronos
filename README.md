@@ -26,5 +26,8 @@ arquivos que foram modificados, inserções e deleções
 - git branch: lista as branches no repositório local
 - git branch -d < branchName >: apaga a branch local cujo nome foi passado
 - git branch < branchName >: cria uma branch com o nome passado
+- git merge < branchName >: faz um merge entre a branch atual e branch cujo nome foi passado.
+- git fetch: permite verificar se o merge foi feito corretamente
 
-
+- O fork permite fazer cópias de outros repositórios para o nosso Github.
+- O pull request é feito quando queremos subir nossas mudanças para um repositório compartilhado ou que estamos contribuindo. Com isso solicitamos o envio dessas mudanças.
