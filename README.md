@@ -19,3 +19,12 @@ arquivos que foram modificados, inserções e deleções
           create mode 100644 README.md
           create mode 100644 index.txt
 
+- git checkout < branchName >: navega entre branches
+- git remote add < originName > < url >: conecta o repositório local com o repositório remoto
+-  git push -u origin < branchName > || git push --set-upstream origin master: envia a branch para o repositório remoto
+- git push origin --delete < branchName >: apaga remotamente a branch cujo nome foi passado
+- git branch: lista as branches no repositório local
+- git branch -d < branchName >: apaga a branch local cujo nome foi passado
+- git branch < branchName >: cria uma branch com o nome passado
+
+
